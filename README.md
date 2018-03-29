@@ -1,4 +1,4 @@
-# Resume website on React
+# :rocket: Resume website on React
 :rocket: The perfect resume website builded on React 16x and ES6+ for personal use. You can also enjoy it ;)
 
 # Features
