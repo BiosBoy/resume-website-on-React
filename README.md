@@ -3,7 +3,7 @@ The perfect resume website builded on React 16x and ES6+ for personal use. You c
 
 # Features
 - Builed on the React 16x, so it easy to modifying;
-- Use the MVC logic structure for separating bussiness logic for view model;
+- Use the MVC logic structure for separating business logic for view model;
 - Modern design with magic ES6+ features;
 - Fully responsive theme, based on flex-box;
 - Adoped for all mobile device types;
