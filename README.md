@@ -10,3 +10,9 @@
 - Very lightweight: only 50kb with all media & styles & scripts;
 - Used font awesome icons pack for best performance;
 - And with a lot of other great things already in the box ;)
+
+# Version 1.5
+What's new:
+ - Added support for old bworsers >ie9+ ;
+ - Added polifylls for closest, match methods;
+ - Improved stability.
