@@ -4,6 +4,7 @@ import ProfileInfo from './profile-info/ProfileInfo'
 import Contacts from './contacts/Contacts'
 import Skills from './skills/Skills'
 import Links from './links/Links'
+import Resume from './resume/Resume'
 import Footer from './footer/Footer'
 import MenuButtonClose from '../menu-buttons/MenuButtonClose'
 
@@ -17,6 +18,7 @@ class LeftSideInfo extends React.Component {
         <Contacts/>
         <Skills/>
         <Links/>
+        <Resume />
         <Footer/>
       </div>
       )
