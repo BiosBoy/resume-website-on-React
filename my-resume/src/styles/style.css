@@ -119,7 +119,7 @@
         word-break: break-all;
     }
      
-    .menu-button__container--sticky {
+    div.menu-button__container--sticky {
         position: fixed;
         height: 60px!Important;
         box-shadow: 1px 1px 1px #111;
@@ -128,6 +128,7 @@
         left: 0px;
         background-color: #f4f6f8;
         z-index: 1000;
+        width: 100%;
     }
     
     .menu-button--sticky {
@@ -531,7 +532,7 @@
 
 @media screen and (max-width: 600px) and (min-width: 300px){
 
-    .menu-button__container--sticky {
+    div.menu-button__container--sticky {
         position: fixed;
         height: 60px!Important;
         box-shadow: 1px 1px 1px #111;
@@ -544,6 +545,7 @@
     
     .menu-button--sticky {
         padding-left: 11px;
+        left: 20px;
         position: fixed;
         top: 15px;
     }
@@ -1151,7 +1153,7 @@
 }
 
 .skills-bullet__graph-line--frontend::after {
-    width: 90%;
+    width: 100%;
     left: -2px;
 }
 
@@ -1324,7 +1326,7 @@
 }
 
 .skills-bullet__graph-line--redux::after {
-    width: 70%;
+    width: 100%;
 }
 
 .skills-bullet__graph-line--redux {

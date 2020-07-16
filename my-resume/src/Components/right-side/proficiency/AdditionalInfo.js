@@ -16,7 +16,7 @@ class AdditionalInfo extends React.Component {
                         I think this is the future of high-load SPA development.</p>
                     <br></br>
                     <h4>My 3 favorite resources where from I grab new knowledges:</h4>
-                    <p>Medium.com, Freecodecamp.com, Habrahabr.ru.</p>
+                    <p>Medium.com, Freecodecamp.com, Habr.ru.</p>
                     <br></br>
                     <h4>Hobbies & Interests</h4>
                     <p>Self-development at least for 15 minutes every day. I love to travel on budget, already made a trip

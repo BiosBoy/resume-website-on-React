@@ -35,19 +35,21 @@ class Experience extends React.Component {
                             <div className="info-bullet__text block__text-grey block-headline__text-grey block-headline__text-grey--overflow">
                                 <div className="experience__title">
                                     <ul>
-                                        <li><strong>FRONT-END REACT GAME DEVELOPER</strong> / TORN.COM LTD Company (Great Britan)</li>
+                                        <li><strong>SENIOR+ FRONT-END (REACT) DEVELOPER</strong> / TORN.COM LTD Company (Great Britain)</li>
                                     </ul>
                                     <p>mar 2018 - present time</p>
                                 </div>
                                 <div className="experience__text">
-                                    <p>For what purpose have I been hired - to create a front-end games for large online RPG.</p>
+                                    <p>For what purpose have I been hired - to drive a front-end of one of the largest online RPG.</p>
                                     <br></br>
                                     <p>My responsibilities:</p>
                                     <ul>
-                                        <li>Creation html games for browsers.</li>
-                                        <li>Stack: React/Redux/Router/Webpack, ES5/6/7, HTML5, CSS3.</li>
-                                        <li>Have an experience with implementing ServiceWorkers and PWA at all.</li>
-                                        <li>Work in the team of 4 employers.</li>
+                                        <li>Design the whole front-end's architecture.</li>
+                                        <li>Slicing down the core on microservices.</li>
+                                        <li>Creating in-game apps.</li>
+                                        <li>Moving the app in a way of SPA & PWA development.</li>
+                                        <li>Work in the team of 8 employers.</li>
+                                        <li>Stack: React/Redux/Router/Webpack, ES5/6/7, HTML5, CSS3/SASS.</li>
                                         <li>Agile(Scrum) methodology.</li>
                                     </ul>
                                 </div>
