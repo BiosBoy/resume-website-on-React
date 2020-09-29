@@ -19,23 +19,15 @@ jobs:
         node-version: [12.x]
 
     steps:
-      - uses: CultureHQ/actions-yarn@v1.0.1
-        with:
-          args: install # will run `yarn install` command
-      - uses: CultureHQ/actions-yarn@v1.0.1
-        with:
-          args: storybook # will run `yarn storybook` command
-      - uses: CultureHQ/actions-yarn@v1.0.1
-        with:
-          args: jest ./shared # will run `yarn test` command
-#     - name: GitHub Action for Yarn
-#     - uses: Borales/actions-yarn@v2.3.0
-#     - uses: actions/checkout@v2
-#     - name: Use Node.js ${{ matrix.node-version }}
-#       uses: actions/setup-node@v1
-#       with:
-#         node-version: ${{ matrix.node-version }}
-#     - run: npm ci
+    - name: GitHub Action for Yarn
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install -g yarn
+    - run: npm i
+    - run: yarn lerna:bootstrap
 #     - run: npm run build --if-present
-#     - run: storybook
-#     - run: jest ./shared
+    - run: yarn storybook
+    - run: yarn jest ./shared
