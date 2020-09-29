@@ -24,13 +24,10 @@ jobs:
           args: install # will run `yarn install` command
       - uses: CultureHQ/actions-yarn@v1.0.1
         with:
-          args: build --if-present # will run `yarn build` command
-      - uses: borales/actions-yarn@v2.0.0
+          args: storybook # will run `yarn storybook` command
+      - uses: CultureHQ/actions-yarn@v1.0.1
         with:
-          cmd: storybook # will run `yarn storybook` command
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: jest ./shared # will run `yarn test` command
+          args: jest ./shared # will run `yarn test` command
 #     - name: GitHub Action for Yarn
 #     - uses: Borales/actions-yarn@v2.3.0
 #     - uses: actions/checkout@v2
