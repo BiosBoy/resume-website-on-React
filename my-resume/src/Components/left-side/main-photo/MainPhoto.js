@@ -7,7 +7,7 @@ class MainPhoto extends React.Component {
       <Fragment>
         <div className="mainPhoto-container">
             <div className="mainPhoto-container__photo"> 
-                <img src="https://sviatkuzh.top/images/my_photo.jpg" alt="Sviatoslav Kuzhelev"/>
+                <img src="https://sviatkuzh.top/my_photo.jpg" alt="Sviatoslav Kuzhelev"/>
             </div>
             <div className="mainPhoto-container__title">
                 <h1>Sviatoslav Kuzhelev</h1>

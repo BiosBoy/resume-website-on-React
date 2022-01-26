@@ -5,10 +5,10 @@ class Resume extends Component {
         return (
             <div className="resume">
                 <p>Want to download PDF version of this CV?</p>
-                <p>
+                <a href="/Kuzhelev_Front-end.pdf">
                     <i className="far fa-file-pdf fa-2x" style={{ transform: 'rotate(0deg)' }}></i>
-                    <a href="/Kuzhelev_Front-end.pdf">Get it now!</a>
-                </p>
+                    <span>Get it now!</span>
+                </a>
             </div>
         )
     }
