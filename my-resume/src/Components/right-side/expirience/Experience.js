@@ -28,6 +28,36 @@ class Experience extends React.Component {
                         <div className="block-headline__text block-headline__text-experience block-headline__text-grey block-headline__text-grey--experience"><span name="experience">WORK EXPERIENCE</span></div>
                     </div>
                     <div className="info-bullets info-bullets__experience-block">
+                    <div className="info-bullet info-bullet__grey">
+                            <div className="info-bullet__icon info-bullet__icon-grey">
+                                <i className="info-bullet__icon-first fas fa-angle-right fa-lg"></i>
+                            </div>
+                            <div className="info-bullet__text block__text-grey block-headline__text-grey block-headline__text-grey--overflow">
+                                <div className="experience__title">
+                                    <ul>
+                                        <li><strong>LEAD FRONT-END DEVELOPER</strong> / CreditNinja.com LTD Company (USA)</li>
+                                    </ul>
+                                    <p>nov 2020 - present time</p>
+                                </div>
+                                <div className="experience__text">
+                                    <p>For what purpose have I been hired - to switch back-end oriented fronted (Ruby on Rails) in favor of React.</p>
+                                    <br></br>
+                                    <p>My responsibilities:</p>
+                                    <ul>
+                                        <li>Creating SPA architecture from scratch.</li>
+                                        <li>Lead independent in-house projects.</li>
+                                        <li>Head of reusable UX/UI Design System creating.</li>
+                                        <li>Bug fixing.</li>
+                                        <li>Work in the team of 65 employers.</li>
+                                        <li>Stack: React/Redux/Router/Webpack, ES5/6/7, HTML5, CSS3/SASS.</li>
+                                        <li>Agile(Scrum/Kanban) methodology.</li>
+                                    </ul>
+                                </div>
+                            </div> 
+                            <div className="info-bullet__button--more__container">
+                                <button className="info-bullet__button--more">--- see details ---</button>
+                            </div>
+                        </div>
                         <div className="info-bullet info-bullet__grey">
                             <div className="info-bullet__icon info-bullet__icon-grey">
                                 <i className="info-bullet__icon-first fas fa-angle-right fa-lg"></i>
@@ -37,7 +67,7 @@ class Experience extends React.Component {
                                     <ul>
                                         <li><strong>SENIOR+ FRONT-END (REACT) DEVELOPER</strong> / TORN.COM LTD Company (Great Britain)</li>
                                     </ul>
-                                    <p>mar 2018 - present time</p>
+                                    <p>apr 2018 - jan 2021</p>
                                 </div>
                                 <div className="experience__text">
                                     <p>For what purpose have I been hired - to drive a front-end of one of the largest online RPG.</p>

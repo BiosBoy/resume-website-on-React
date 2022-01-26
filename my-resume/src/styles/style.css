@@ -1000,6 +1000,10 @@
     border: 1px solid #223cf1;
 }
 
+.social__container--button .svg-inline--fa {
+    transform: rotate(0deg);
+}
+
 .social__icon {
     margin-right: 4%;
 }

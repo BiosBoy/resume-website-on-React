@@ -48,7 +48,7 @@ class ContactMe extends React.Component {
                                 <i className="info-bullet__icon-first fas fa-question-circle fa-lg"></i>
                             </div>
                             <div className="info-bullet__text info-bullets__text-contacts">
-                                <p>Male, 25 years old</p>
+                                <p>Male, 28 years old</p>
                             </div> 
                         </div>                    
                     </div>
