@@ -95,7 +95,7 @@ class Experience extends React.Component {
                             <div className="info-bullet__text block__text-grey block-headline__text-grey block-headline__text-grey--overflow">
                                 <div className="experience__title">
                                     <ul>
-                                        <li><strong>FRONT-END REACT DEVELOPER</strong> / Tinkoff Bank CA Company (Russia)</li>
+                                        <li><strong>FRONT-END REACT DEVELOPER</strong> / Private Bank CA Company (Latvia)</li>
                                     </ul>
                                     <p>oct 2017 - mar 2018</p>
                                 </div>
