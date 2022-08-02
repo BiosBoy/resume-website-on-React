@@ -37,7 +37,7 @@ class Experience extends React.Component {
                                     <ul>
                                         <li><strong>LEAD FRONT-END DEVELOPER</strong> / CreditNinja.com LTD Company (USA)</li>
                                     </ul>
-                                    <p>nov 2020 - present time</p>
+                                    <p>nov 2020 - aug 2022</p>
                                 </div>
                                 <div className="experience__text">
                                     <p>For what purpose have I been hired - to switch back-end oriented fronted (Ruby on Rails) in favor of React.</p>
@@ -128,7 +128,7 @@ class Experience extends React.Component {
                                     <p>apr 2016 - jan 2018</p>
                                 </div>
                                 <div className="experience__text">
-                                    <p>For what purpose have I been hired - to create Landing Pages and E-mail letters, support current company Websites (stormoff.ru, medmet.ru, dixion.ru).</p>
+                                    <p>For what purpose have I been hired - to create Landing Pages and E-mail letters, support current company Websites.</p>
                                     <br></br>
                                     <p>My responsibilities:</p>
                                     <ul>

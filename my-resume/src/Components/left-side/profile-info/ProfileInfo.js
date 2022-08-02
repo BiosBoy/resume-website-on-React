@@ -11,7 +11,7 @@ class ProfileInfo extends React.Component {
                 <div className="block-headline__text block-headline__text--profile"><span>PROFILE INFO</span></div> 
             </div>
             <div className="profile-info__text">
-                <p><strong>I'm a front-end software engineer</strong> who is highly driven and well-versed in technology stack: HTML5, CSS3, JS, React, Redux and NodeJS. I have a huge experience in building a high-performance Websites, Landing Pages and E-mail letters. For now, I'm inspired by creating SPA's on React and NodeJS. </p>
+                <p><strong>I'm a front-end software engineer with more than 8+ years of experience in web.</strong> Highly driven and well-versed in technology stack: HTML5, CSS3, JS, React, Redux and NodeJS. Feel passion in in building a high-performance Websites with user-friendly UX/UI design in mind. For now, I'm inspired by creating SPA's on React and NodeJS.</p>
             </div>
         </div>
       )
